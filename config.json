@@ -1,0 +1,89 @@
+{
+  "botInfo": {
+    "name": "Eren-AI",
+    "prefix": "/",
+    "token": "8914003160:AAGw-JiXW2n4F488cfWSwqefk0youSp-p_000",
+    "timezone": "Asia/Dhaka",
+    "usePrefix": true
+  },
+  "ownerInfo": {
+    "mainOwner": [
+      {
+        "name": "MOHAMMAD BADOL",
+        "id": "6954597258"
+      },
+      {
+        "name": "M9U",
+        "id": "8036137477"
+      }
+    ],
+    "botAdmins": [
+      "6954597258",
+      "8036137477"
+    ]
+  },
+  "settings": {
+    "prefixModeEnabled": false,
+    "allowCustomPrefix": true,
+    "allowInboxMode": true,
+    "onlyAdmin": false,
+    "onlyAdminMessage": "⚠️ This bot is in admin-only mode. Only admins can use commands.",
+    "disabledCommands": [],
+    "disabledEvents": [],
+    "ignoreOldMessages": {
+      "enabled": true
+    },
+    "showCommandSuggestions": {
+      "enabled": true
+    },
+    "groupApproval": {
+      "enabled": true
+    },
+    "dmApproval": {
+      "enabled": true
+    },
+    "levelSystem": {
+      "enabled": true,
+      "expPerMessage": 5,
+      "expToLevelUp": 100
+    },
+    "adminReactionUnsend": {
+      "enabled": true,
+      "emoji": "👍"
+    },
+    "botStartNotification": {
+      "enabled": false,
+      "sendToAdmins": true,
+      "sendToThreads": false,
+      "threadIds": []
+    },
+    "logLevel": "info",
+    "language": "bn"
+  },
+  "database": {
+    "type": "mongodb",
+    "uriMongodb": "mongodb+srv://badolbot009:<pass>@cluster0.gdrhlbo.mongodb.net/BADOL-TG-BOT?retryWrites=true&w=majority&appName=Cluster0"
+  },
+  "dashBoard": {
+    "enable": false,
+    "port": 3000,
+    "passwordProtection": {
+      "enable": false,
+      "password": ""
+    }
+  },
+  "serverUptime": {
+    "enable": false,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": "badolbotkey"
+    }
+  },
+  "autoUptime": {
+    "enable": true,
+    "url": "",
+    "timeInterval": 240
+  }
+}
